@@ -37,16 +37,16 @@ import {
     BlockNumber,
     LogsOptions,
     PastLogsOptions
-} from 'web3-core';
-import {Subscription} from 'web3-core-subscriptions';
-import {AbiCoder} from 'web3-eth-abi';
-import {Accounts} from 'web3-eth-accounts';
-import {Contract, ContractOptions} from 'web3-eth-contract';
-import {Ens} from 'web3-eth-ens';
-import {Iban} from 'web3-eth-iban';
-import {Personal} from 'web3-eth-personal';
-import {Network} from 'web3-net';
-import {AbiItem} from 'web3-utils';
+} from '@photic/web3-core';
+import {Subscription} from '@photic/web3-core-subscriptions';
+import {AbiCoder} from '@photic/web3-eth-abi';
+import {Accounts} from '@photic/web3-eth-accounts';
+import {Contract, ContractOptions} from '@photic/web3-eth-contract';
+import {Ens} from '@photic/web3-eth-ens';
+import {Iban} from '@photic/web3-eth-iban';
+import {Personal} from '@photic/web3-eth-personal';
+import {Network} from '@photic/web3-net';
+import {AbiItem} from '@photic/web3-utils';
 import {BigNumber} from 'bignumber.js';
 import BN = require('bn.js');
 

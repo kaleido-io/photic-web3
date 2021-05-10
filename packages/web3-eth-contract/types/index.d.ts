@@ -18,8 +18,8 @@
  */
 
 import BN = require('bn.js');
-import {Common, PromiEvent, provider, hardfork, chain, BlockNumber, PastLogsOptions, LogsOptions} from 'web3-core';
-import {AbiItem} from 'web3-utils';
+import {Common, PromiEvent, provider, hardfork, chain, BlockNumber, PastLogsOptions, LogsOptions} from '@photic/web3-core';
+import {AbiItem} from '@photic/web3-utils';
 
 // TODO: Add generic type!
 export class Contract {

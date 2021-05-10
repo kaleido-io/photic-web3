@@ -21,7 +21,7 @@
  */
 
 import BN = require('bn.js');
-import {toTwosComplement} from 'web3-utils';
+import {toTwosComplement} from '@photic/web3-utils';
 
 // $ExpectType string
 toTwosComplement(4);

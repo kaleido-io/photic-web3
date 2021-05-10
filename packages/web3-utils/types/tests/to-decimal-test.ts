@@ -21,7 +21,7 @@
  */
 
 import BN = require('bn.js');
-import {toDecimal} from 'web3-utils';
+import {toDecimal} from '@photic/web3-utils';
 
 // $ExpectType number
 toDecimal('232');

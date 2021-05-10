@@ -22,12 +22,12 @@
 
 "use strict";
 
-var core = require('web3-core');
-var Method = require('web3-core-method');
-var utils = require('web3-utils');
-var Net = require('web3-net');
+var core = require('@photic/web3-core');
+var Method = require('@photic/web3-core-method');
+var utils = require('@photic/web3-utils');
+var Net = require('@photic/web3-net');
 
-var formatters = require('web3-core-helpers').formatters;
+var formatters = require('@photic/web3-core-helpers').formatters;
 
 
 var Personal = function Personal() {

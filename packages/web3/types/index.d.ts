@@ -18,13 +18,13 @@
  */
 
 import * as net from 'net';
-import { Bzz } from 'web3-bzz';
-import { BatchRequest, provider, Providers, Extension } from 'web3-core';
-import { Eth } from 'web3-eth';
-import { Personal } from 'web3-eth-personal';
-import { Network } from 'web3-net';
-import { Shh } from 'web3-shh';
-import { Utils } from 'web3-utils';
+import { Bzz } from '@photic/web3-bzz';
+import { BatchRequest, provider, Providers, Extension } from '@photic/web3-core';
+import { Eth } from '@photic/web3-eth';
+import { Personal } from '@photic/web3-eth-personal';
+import { Network } from '@photic/web3-net';
+import { Shh } from '@photic/web3-shh';
+import { Utils } from '@photic/web3-utils';
 
 export default class Web3 {
     constructor();

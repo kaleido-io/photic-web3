@@ -21,7 +21,7 @@
  */
 
 import BN = require('bn.js');
-import {isBigNumber} from 'web3-utils';
+import {isBigNumber} from '@photic/web3-utils';
 
 // $ExpectType boolean
 isBigNumber(new BN(3));

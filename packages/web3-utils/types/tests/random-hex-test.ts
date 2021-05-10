@@ -21,7 +21,7 @@
  */
 
 import BN = require('bn.js');
-import {randomHex} from 'web3-utils';
+import {randomHex} from '@photic/web3-utils';
 
 // $ExpectType string
 randomHex(32);

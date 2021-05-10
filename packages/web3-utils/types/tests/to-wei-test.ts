@@ -21,7 +21,7 @@
  */
 
 import BN = require('bn.js');
-import {toWei} from 'web3-utils';
+import {toWei} from '@photic/web3-utils';
 
 const bigNumber = new BN(3);
 

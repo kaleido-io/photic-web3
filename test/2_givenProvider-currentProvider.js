@@ -6,9 +6,9 @@ describe('Web3.providers.currentProvider', function () {
 
     // Setting of 'global.' requires a deep reset
     beforeEach(function(){
-        decache('../packages/web3');
-        decache('../packages/web3-eth');
-        decache('../packages/web3-bzz');
+        decache('../packages/@photic/web3');
+        decache('../packages/@photic/web3-eth');
+        decache('../packages/@photic/web3-bzz');
     });
 
     describe('should be set if web3.currentProvider is available', function () {

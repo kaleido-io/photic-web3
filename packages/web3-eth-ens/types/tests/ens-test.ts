@@ -17,11 +17,11 @@
  * @date 2018
  */
 
-import { TransactionRevertInstructionError } from 'web3-core-helpers';
-import { TransactionReceipt } from 'web3-core';
-import { Contract } from 'web3-eth-contract';
-import { Ens, ContentHash } from 'web3-eth-ens';
-import { Eth } from 'web3-eth';
+import { TransactionRevertInstructionError } from '@photic/web3-core-helpers';
+import { TransactionReceipt } from '@photic/web3-core';
+import { Contract } from '@photic/web3-eth-contract';
+import { Ens, ContentHash } from '@photic/web3-eth-ens';
+import { Eth } from '@photic/web3-eth';
 
 const ens = new Ens(new Eth('http://localhost:8545'));
 

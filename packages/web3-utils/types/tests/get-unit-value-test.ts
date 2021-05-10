@@ -21,7 +21,7 @@
  */
 
 import BN = require('bn.js');
-import {getUnitValue} from 'web3-utils';
+import {getUnitValue} from '@photic/web3-utils';
 
 // $ExpectType string
 getUnitValue('ether');

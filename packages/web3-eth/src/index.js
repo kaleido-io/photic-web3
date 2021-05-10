@@ -23,19 +23,19 @@
 "use strict";
 
 var _ = require('underscore');
-var core = require('web3-core');
-var helpers = require('web3-core-helpers');
-var Subscriptions = require('web3-core-subscriptions').subscriptions;
-var Method = require('web3-core-method');
-var utils = require('web3-utils');
-var Net = require('web3-net');
+var core = require('@photic/web3-core');
+var helpers = require('@photic/web3-core-helpers');
+var Subscriptions = require('@photic/web3-core-subscriptions').subscriptions;
+var Method = require('@photic/web3-core-method');
+var utils = require('@photic/web3-utils');
+var Net = require('@photic/web3-net');
 
-var ENS = require('web3-eth-ens');
-var Personal = require('web3-eth-personal');
-var BaseContract = require('web3-eth-contract');
-var Iban = require('web3-eth-iban');
-var Accounts = require('web3-eth-accounts');
-var abi = require('web3-eth-abi');
+var ENS = require('@photic/web3-eth-ens');
+var Personal = require('@photic/web3-eth-personal');
+var BaseContract = require('@photic/web3-eth-contract');
+var Iban = require('@photic/web3-eth-iban');
+var Accounts = require('@photic/web3-eth-accounts');
+var abi = require('@photic/web3-eth-abi');
 
 var getNetworkType = require('./getNetworkType.js');
 var formatter = helpers.formatters;

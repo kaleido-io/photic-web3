@@ -42,7 +42,7 @@ var extractReceipt = function(message){
 var getWeb3 = function(){
     return (global.window)
         ? require('../../packages/web3/dist/web3.min')
-        : require('../../packages/web3');
+        : require('../../packages/@photic/web3');
 }
 
 // Gets correct websocket port for client. Ganache uses 8545 for both

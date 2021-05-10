@@ -22,8 +22,8 @@
 
 import * as http from 'http';
 import * as https from 'https';
-import { HttpProvider } from 'web3-providers';
-import { JsonRpcResponse } from 'web3-core-helpers';
+import { HttpProvider } from '@photic/web3-providers';
+import { JsonRpcResponse } from '@photic/web3-core-helpers';
 
 const httpProvider = new HttpProvider('http://localhost:8545', {
     timeout: 20000,

@@ -33,12 +33,12 @@ echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 git submodule update --init --recursive
 yarn --registry http://localhost:4873
 
-yarn add web3@e2e --registry http://localhost:4873 --network-timeout 600000
+yarn add @photic/web3@e2e --registry http://localhost:4873 --network-timeout 600000
 
-yarn list web3
-yarn list web3-utils
-yarn list web3-core
-yarn list web3-core-promievent
+yarn list @photic/web3
+yarn list @photic/web3-utils
+yarn list @photic/web3-core
+yarn list @photic/web3-core-promievent
 
 cat ./package.json
 

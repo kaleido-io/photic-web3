@@ -17,7 +17,7 @@
  * @date 2018
  */
 
-import { Network } from 'web3-net';
+import { Network } from '@photic/web3-net';
 
 // $ExpectType Network
 const network_empty = new Network();

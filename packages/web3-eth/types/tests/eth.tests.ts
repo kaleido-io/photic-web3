@@ -33,7 +33,7 @@ import {
     hardfork,
     Common,
     chain
-} from 'web3-eth';
+} from '@photic/web3-eth';
 import BN = require('bn.js');
 import BigNumber from 'bignumber.js';
 

@@ -20,6 +20,6 @@
  * @date 2018
  */
 
-import { IpcProviderBase } from 'web3-core-helpers';
+import { IpcProviderBase } from '@photic/web3-core-helpers';
 
 export class IpcProvider extends IpcProviderBase { }

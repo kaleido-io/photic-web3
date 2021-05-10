@@ -29,13 +29,13 @@
 
 
 var version = require('../package.json').version;
-var core = require('web3-core');
-var Eth = require('web3-eth');
-var Net = require('web3-net');
-var Personal = require('web3-eth-personal');
-var Shh = require('web3-shh');
-var Bzz = require('web3-bzz');
-var utils = require('web3-utils');
+var core = require('@photic/web3-core');
+var Eth = require('@photic/web3-eth');
+var Net = require('@photic/web3-net');
+var Personal = require('@photic/web3-eth-personal');
+var Shh = require('@photic/web3-shh');
+var Bzz = require('@photic/web3-bzz');
+var utils = require('@photic/web3-utils');
 
 var Web3 = function Web3() {
     var _this = this;

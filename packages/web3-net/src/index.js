@@ -22,9 +22,9 @@
 
 "use strict";
 
-var core = require('web3-core');
-var Method = require('web3-core-method');
-var utils = require('web3-utils');
+var core = require('@photic/web3-core');
+var Method = require('@photic/web3-core-method');
+var utils = require('@photic/web3-utils');
 
 
 var Net = function () {

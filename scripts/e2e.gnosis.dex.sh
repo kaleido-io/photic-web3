@@ -35,10 +35,10 @@ echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 yarn --registry http://localhost:4873
 
-yarn list web3
-yarn list web3-utils
-yarn list web3-core
-yarn list web3-core-promievent
+yarn list @photic/web3
+yarn list @photic/web3-utils
+yarn list @photic/web3-core
+yarn list @photic/web3-core-promievent
 
 cat ./package.json
 

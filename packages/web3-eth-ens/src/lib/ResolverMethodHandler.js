@@ -20,9 +20,9 @@
 
 "use strict";
 
-var PromiEvent = require('web3-core-promievent');
+var PromiEvent = require('@photic/web3-core-promievent');
 var namehash = require('eth-ens-namehash');
-var errors = require('web3-core-helpers').errors;
+var errors = require('@photic/web3-core-helpers').errors;
 var _ = require('underscore');
 var interfaceIds = require('../config').interfaceIds;
 
