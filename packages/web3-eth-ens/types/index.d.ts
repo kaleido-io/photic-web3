@@ -19,7 +19,6 @@
 
 import { PromiEvent, TransactionConfig, TransactionReceipt } from '@photic/web3-core';
 import { TransactionRevertInstructionError } from '@photic/web3-core-helpers';
-import { Eth } from '@photic/web3-eth';
 import { Contract } from '@photic/web3-eth-contract';
 
 export interface ContentHash {
@@ -30,7 +29,7 @@ export interface ContentHash {
 
 // TODO: Define as soon as implemented the generic contract
 export class Ens {
-    constructor(eth: Eth);
+    constructor(eth: any);
 
     registryAddress: string | null;
     registry: Registry;
