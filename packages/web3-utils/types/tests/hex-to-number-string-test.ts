@@ -29,7 +29,7 @@ hexToNumberString('0xea');
 hexToNumberString(0xea);
 
 // $ExpectError
-hexToNumberString(new BN(3);
+hexToNumberString(new BN(3));
 // $ExpectError
 hexToNumberString(['string']);
 // $ExpectError
