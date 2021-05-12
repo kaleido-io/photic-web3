@@ -23,7 +23,7 @@
 "use strict";
 
 var _ = require('underscore');
-var errors = require('web3-core-helpers').errors;
+var errors = require('@photic/web3-core-helpers').errors;
 var oboe = require('oboe');
 
 

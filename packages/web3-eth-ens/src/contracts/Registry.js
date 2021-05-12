@@ -21,11 +21,11 @@
 "use strict";
 
 var _ = require('underscore');
-var Contract = require('web3-eth-contract');
+var Contract = require('@photic/web3-eth-contract');
 var namehash = require('eth-ens-namehash');
-var PromiEvent = require('web3-core-promievent');
-var formatters = require('web3-core-helpers').formatters;
-var utils = require('web3-utils');
+var PromiEvent = require('@photic/web3-core-promievent');
+var formatters = require('@photic/web3-core-helpers').formatters;
+var utils = require('@photic/web3-utils');
 var REGISTRY_ABI = require('../resources/ABI/Registry');
 var RESOLVER_ABI = require('../resources/ABI/Resolver');
 
