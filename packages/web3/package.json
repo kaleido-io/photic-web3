@@ -52,7 +52,7 @@
     "dependencies": {
         "@photic/web3-bzz": "1.3.7",
         "@photic/web3-core": "1.3.7",
-        "@photic/web3-eth": "1.3.8",
+        "@photic/web3-eth": "1.3.9",
         "@photic/web3-eth-personal": "1.3.7",
         "@photic/web3-net": "1.3.7",
         "@photic/web3-shh": "1.3.7",
