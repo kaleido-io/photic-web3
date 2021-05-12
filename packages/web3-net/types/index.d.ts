@@ -17,6 +17,6 @@
  * @date 2018
  */
 
-import { NetworkBase } from 'web3-core';
+import { NetworkBase } from '@photic/web3-core';
 
 export class Network extends NetworkBase {}

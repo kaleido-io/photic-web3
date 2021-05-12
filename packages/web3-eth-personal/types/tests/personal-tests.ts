@@ -19,7 +19,7 @@
  * @date 2018
  */
 
-import { RLPEncodedTransaction } from 'web3-core';
+import { RLPEncodedTransaction } from '@photic/web3-core';
 import { Personal } from 'web3-eth-personal';
 
 // $ExpectType Personal
