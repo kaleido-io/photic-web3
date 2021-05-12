@@ -19,7 +19,7 @@
 
 import { PromiEvent, TransactionConfig, TransactionReceipt } from '@photic/web3-core';
 import { TransactionRevertInstructionError } from '@photic/web3-core-helpers';
-import { Eth } from 'web3-eth';
+import { Eth } from '@photic/web3-eth';
 import { Contract } from '@photic/web3-eth-contract';
 
 export interface ContentHash {
